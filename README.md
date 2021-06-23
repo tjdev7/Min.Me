@@ -1,2 +1,3 @@
 # Min.Me
-Minimalist social media app
+
+Minimalist social media app created using React
