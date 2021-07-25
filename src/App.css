@@ -1,21 +1,95 @@
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 
-.App-link {
-  color: #61dafb;
-}
 
 h1 {
   padding: 5px;
   color: white;
   font-weight: lighter;
-  font-size: 3vw;
+  font-size: 4vw;
+  margin-bottom: -45px;
+  margin-top: -10px;
+  
+}
+h4 {
+  color: white;
+  font-weight: lighter;
+  padding-left: 7px;
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.5vw;
+}
+
+h2 {
+  padding: 0;
+}
+
+nav {
+  list-style-type: none;
+  padding: 5px;
+  overflow: hidden;
+  color: white;
+  text-align: left;
+  font-size: 2vw;
+  text-align: center;
+
+}
+
+li, 
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.mainAvatar {
+  text-align: center;
+  color: white;
+  margin: -35px;
+}
+
+.mediaButtons {
+  font-size: 2vw;
+}
+
+.avatarStyle {
+  font-size: 5vw;
+}
+
+.followsStyle {
+  border: 2px solid white;
+  padding: 15px;
+  width: 32vw;
+  margin: 10px;
+}
+
+.followArticle {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.DashStyle {
+  border: 7px solid white;
+  padding: 15px;
+  width: 45vw;
+  margin: 10px;
+  text-align: justify;
+}
+
+.DashSection {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+input {
+  width: 250px;
+  height: 50px;
+}
+
+button {
+  padding: .5vw;
+  margin: .5vw;
 }
