@@ -3,9 +3,14 @@ import '../App.css';
 // import PropTypes from 'prop-types';
 
 // const newUsername = 
+// modal popup
+// input =[""] // required
+// changestate = {this.username}
+
 
 // const newPost = 
-// input
+// input = [""].required at least min=2
+//
 
 //const deletePost = 
 // onClick = delete post
@@ -22,13 +27,22 @@ function Dashboard() {
                 <button>New post</button>
         </article>
 
+
+{/*Create new <article> and <p> section, along with username and avatar */}
+
+{/*delete post on click */}
+
+{/*<button onClick=()>❌ </button>*/}
+{/*💓45 Likes  🌀 21 Shares  📌33 Faves */}
+
+
             <article className="DashStyle">
 
             
                 <p><span className="DashAvatar">😶  </span>Aliquam consectetur placerat eros, 
                 consequat lobortis tellus pulvinar et. Donec bibendum erat non metus blandit, non 
                 commodo magna gravida. Donec bobe</p>
-                <span className="mediaButtons">45 💓Like 21 🌀Share 33 📌Pin</span>
+                <span className="mediaButtons">💓45 Likes  🌀 21 Shares  📌33 Faves</span>
             </article>
 
             <article className="DashStyle">

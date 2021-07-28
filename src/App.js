@@ -7,11 +7,15 @@ import following from './components/following';
 import Settings from './components/Settings';
 import { BrowserRouter, Route, Link } from "react-router-dom"
 
+
+// const mainSelect = 
+// avatarArray = []
+// onclick = "choose avatar"
+// input = "".whatever user inputs
+
 function App() {
   return (
     <div className="App">
-
-
         <h1>Min.Me</h1>
         <h4>Minimalist social media platform</h4>
 
@@ -23,33 +27,22 @@ function App() {
         <nav>
         <BrowserRouter>
          <Link to="/Dashboard"><li>Dashboard</li></Link>
-          
-          
-          <Link to="/followers"><li>Followers</li></Link>
-          
-          
-          <Link to="/following"><li>Following</li></Link>
-          
-
-          <Link to="/Settings">
-          <li>Settings</li>
-        </Link>
+         <Link to="/followers"><li>Followers</li></Link>
+         <Link to="/following"><li>Following</li></Link>
+         <Link to="/Settings"><li>Settings</li></Link>
 
         <Route 
             path="/Dashboard"
             component={Dashboard}
             /> 
-
         <Route 
             path="/followers"
             component={followers}
             /> 
-
         <Route 
             path="/following"
             component={following}
             /> 
-
           <Route 
             path="/Settings"
             component={Settings}
