@@ -3,7 +3,7 @@ import '../App.css';
 // import PropTypes from 'prop-types';
 
 // const avatarChange = null;
-// avatarList= toggle chooice = [ 👧🏼👧🏻👧🏿 👧🏽🧕👸 🧑‍🦱 🧑‍🦰👦👦🏽👦🏿 👦🏼👦🏻   🦊  🐱🐶 🐵];
+// avatarList=   👧🏼👧🏻👧🏿 👧🏽🧕👸 🧑‍🦱 🧑‍🦰👦👦🏽👦🏿 👦🏼👦🏻   🦊  🐱🐶 🐵;
 
 
 // const usernameChange = null;
@@ -11,7 +11,7 @@ import '../App.css';
 // {this.username}
 
 // const colorChange = null;
-// colorList = [red, blue, pink, yellow, black, green, purple]
+// colorList = red, blue, pink, yellow, black, green, purple
 
 
 function Settings() {  
