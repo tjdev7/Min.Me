@@ -1,6 +1,6 @@
 {
-  "name": "Min.me",
-  "version": "1.0.0",
+  "name": "min.me",
+  "version": "1.1.0",
   "private": false,
   "homepage": "https://toughee.github.io/Min.Me/",
   "dependencies": {
@@ -9,10 +9,15 @@
     "@testing-library/user-event": "^12.8.3",
     "core-js": "^3.15.2",
     "prop-types": "^15.7.2",
+    "random-username-generator": "^1.0.4",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "unique-names-generator": "^4.6.0",
+    "uuid": "^3.4.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -20,7 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build",
+    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +47,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "json-loader": "^0.5.7",
+    "prettier": "2.3.2"
   }
 }

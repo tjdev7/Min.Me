@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
 
 h1 {
   padding: 5px;
@@ -8,14 +7,13 @@ h1 {
   font-size: 4vw;
   margin-bottom: -45px;
   margin-top: -10px;
-  
 }
 h4 {
   color: white;
   font-weight: lighter;
   padding-left: 7px;
   text-decoration: none;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 1.5vw;
 }
 
@@ -38,16 +36,15 @@ nav {
   text-align: left;
   font-size: 2vw;
   text-align: center;
-
 }
 
-li, 
+li,
 li a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    font-weight: lighter;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-weight: lighter;
 }
 
 .mainAvatar {
@@ -65,7 +62,7 @@ li a {
 }
 
 .followsStyle {
-  border: 2px solid white;
+  border: 5px solid #ffffff;
   padding: 15px;
   width: 32vw;
   margin: 10px;
@@ -92,11 +89,16 @@ li a {
 }
 
 input {
-  width: 250px;
-  height: 50px;
+  width: 300px;
+  height: 20px;
 }
 
 button {
-  padding: .5vw;
-  margin: .5vw;
+  padding: 0.5vw;
+  margin: 0.5vw;
+}
+
+.userOption {
+  border-radius: 50%;
+  font-size: 2vw;
 }
