@@ -1,30 +1,30 @@
 import '../App.css';
+// import { useState } from "react";
 // import ReactDOM from 'react-dom';
 // import PropTypes from 'prop-types';
 
-// const unfollow = 
-// onClick = remove following 
-// one article section
+// function unfollow() {
+//     alert('User unfollowed');
+// }
 
-// 
-
-// <button onclick="block">❌</button>
 
 function following() {  
     return(
             <div>
         <main className="followArticle">
             <article className="followsStyle">
-            <span className="avatarStyle">😶  </span>
-                <span>aqfgu</span><span> <button>❌</button></span>
+            <span className="avatarStyle">👧🏽  </span>
+                <span>aqfgu</span>
+                {/* <span> <button className="userOption" onClick={unfollow}>❌</button></span> */}
                 <br/>
                 <span>Coffee fanatic</span>
                 <br/>
                 <span>•I’d rather steal your dessert than your boyfriend</span>
             </article>
             <article className="followsStyle">
-            <span className="avatarStyle">😶  </span>
-                <span>znqfa</span><span> <button>❌</button></span>
+            <span className="avatarStyle">👦  </span>
+                <span>znqfa</span>
+                {/* <span> <button className="userOption" onClick={unfollow}>❌</button></span> */}
                 <br/>
                 <span>•Bacon expert</span>
                 <br/>
@@ -32,15 +32,16 @@ function following() {
             </article>
             <article className="followsStyle">
                 <span className="avatarStyle">😶  </span>
-                <span>buevx</span><span> <button>❌</button></span>
+                <span>buevx</span>
+                {/* <span> <button className="userOption" onClick={unfollow}>❌</button></span> */}
                 <br/>
                 <span>General alcohol buff</span>
                 <br/>
                 <span>"Message"</span>
             </article>
             <article className="followsStyle">
-            <span className="avatarStyle">😶  </span>
-                <span>btmgw</span><span> <button>❌</button></span>
+            <span className="avatarStyle">👦🏿  </span>
+                <span>btmgw</span>
                 <br/>
                 <span>•Student</span>
                 <br/>
@@ -48,16 +49,17 @@ function following() {
             </article>
 
             <article className="followsStyle">
-                <span className="avatarStyle">😶  </span>
-                <span>mgqpu</span><span> <button>❌</button></span>
+                <span className="avatarStyle">👧🏼  </span>
+                <span>mgqpu</span>
                 <br/>
                 <span>•Pop culture geek</span>
+                <br/>
                 <span>•Making history</span>
             </article>
 
             <article className="followsStyle">
-            <span className="avatarStyle">😶  </span>
-                <span>ccaux</span><span> <button>❌</button></span>
+            <span className="avatarStyle">🐶  </span>
+                <span>ccaux</span>
                 <br/>
                 <span>•Total music aficionado</span>
                 <br/>
@@ -65,8 +67,8 @@ function following() {
             </article>
 
             <article className="followsStyle">
-            <span className="avatarStyle">😶  </span>
-                <span>Zpmmg</span><span> <button>❌</button></span>
+            <span className="avatarStyle">🧑‍🦱  </span>
+                <span>Zpmmg</span>
                 <br/>
                 <span>•Friendly social media nerd</span>
                 <br/>
@@ -74,8 +76,8 @@ function following() {
             </article>
 
             <article className="followsStyle">
-            <span className="avatarStyle">😶  </span>
-                <span>VS3fzjn</span><span> <button>❌</button></span>
+            <span className="avatarStyle">🧑‍🦰  </span>
+                <span>VS3fzjn</span>
                 <br/>
                 <span>•Web aficionado</span>
                 <br/>
