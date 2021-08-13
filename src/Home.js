@@ -18,28 +18,16 @@ const shortName = uniqueNamesGenerator({
   length: 2,
 });
 
-// function usernameSet() {
-//   alert('random name set');
-// }
-
-// input = "".whatever user inputs
-
 function App() {
   return (
     <div className="App">
-      <h1>Min.Me</h1>
-      <h4>Minimalist social media platform</h4>
-
-      <header className="mainAvatar">
-        <p>
-          <span className="avatarStyle">🧔</span>
-        </p>
-
-        <h2>{shortName}</h2>
-      </header>
-      <br />
       <nav>
+      
         <BrowserRouter>
+        <Link to="/App">
+        <li><h1>Min.Me</h1></li>
+          </Link>
+
           <Link to="/Dashboard">
             <li>Dashboard</li>
           </Link>
@@ -49,13 +37,17 @@ function App() {
           <Link to="/following">
             <li>Following</li>
           </Link>
+          <li>🧔{shortName}</li>
           {/*<Link to="/Settings"><li>Settings</li></Link>*/}
 
           <Route path="/Dashboard" component={Dashboard} />
           <Route path="/followers" component={followers} />
           <Route path="/following" component={following} />
+          
         </BrowserRouter>
+        
       </nav>
+
     </div>
   );
 }

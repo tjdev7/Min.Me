@@ -1,39 +1,49 @@
-import React from 'react';
+import React, { useState } from "react";
 import '../App.css';
-import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
+import CreatePost from "./CreatePost.js"
+import NewPost from "./NewPost.js"
 import PropTypes from 'prop-types';
-import { Button, Form } from 'react-bootstrap';
-import { FaEdit, FaTrash } from "react-icons/fa";
 
-// step by step
+//function NewPost 
+// <NewPost
+// id key name, , edit, delete
 
-// basic div
+function Dashboard(props) {
 
-// input
+  //   function DashAdd(postNameData) {
+  //   const NewPostAdd = { id: "Posting" + uuidv4(), name:postNameData };
+  //     SetNewPosts([...posts , NewPostAdd]);
+  // }
+  //   function delPost(id) {
+  //     const updateStream = posts.filter(post => id !== post.id) 
+  //     SetNewPosts(updateStream);
+  //   }
 
-// on submit
-// include dashsection
+    // function changePost() {
+    //   const = {};
+    //   SetNewPosts([]);
+    // }
 
-// show list
+    // const [posts, SetNewPosts] = useState(props.posts);
+    // const DataStream = posts.map(post => (
+    //   <NewPost
+    //     key={post.id}
+    //     id={post.id}
+    //     delPost={delPost}
+    //     // editPost={editPost}
 
-// list for 
-  
-function Dashboard() {  
-    return (
-        <div className="DashSection">
-      
-            
-            <input
-                type="text"
-                placeholder="Make a new post here"
-            />
-            <button>Submit</button>
+    //   />
+    // ));
+        return (
+          <div>
+        {/* <CreatePost DashAdd={DashAdd}/> */}
 
-        </div>
+          {/* {DataStream} */}
 
-    )
-                
-}
+          </div>
+        );
+    }  
 
 export default Dashboard;
+
