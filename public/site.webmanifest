@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Min.me",
+    "short_name": "Minimalist social media app",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

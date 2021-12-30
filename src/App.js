@@ -1,3 +1,5 @@
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
+
 import "./App.css";
 // import ReactDOM from 'react-dom';
 // import PropTypes from 'prop-types';
@@ -11,7 +13,6 @@ import {
   colors,
 } from "unique-names-generator";
 
-import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const shortName = uniqueNamesGenerator({
   dictionaries: [adjectives, colors],
@@ -22,10 +23,11 @@ function App() {
   return (
     <div className="App">
       <nav>
-      
         <BrowserRouter>
-        <Link to="/App">
-        <li><h1>Min.Me</h1></li>
+          <Link to="/App">
+            <li>
+              <h1>Min.Me</h1>
+            </li>
           </Link>
 
           <Link to="/Dashboard">
@@ -39,15 +41,13 @@ function App() {
           </Link>
           <li>🧔{shortName}</li>
           {/*<Link to="/Settings"><li>Settings</li></Link>*/}
-
-          <Route path="/Dashboard" component={Dashboard} />
-          <Route path="/followers" component={followers} />
-          <Route path="/following" component={following} />
-          
+        <Routes>
+          <Route path="/Dashboard" element={Dashboard} />
+          <Route path="/followers" element={followers} />
+          <Route path="/following" element={following} />
+        </Routes>
         </BrowserRouter>
-        
       </nav>
-
     </div>
   );
 }

@@ -3,45 +3,38 @@ import props from "prop-types";
 import { FaEdit, FaTrash } from "react-icons/fa";
 
 function NewPost(props) {
-    //const edit function
-    // const [NewestPost, SetNewestPost] = useState('');
-    
-    //  function handleChange(event) {
-    //     SetNewestPost(event.target.value);
-    //  }
-  
-//    function handleSubmit(event) {
-//     event.preventDefault();
-//     //props. (props.id, NewestPost)
-//     SetNewestPost("");
-//    }
+  //const edit function
+  // const [NewestPost, SetNewestPost] = useState('');
 
-   // const editpost
+  //  function handleChange(event) {
+  //     SetNewestPost(event.target.value);
+  //  }
 
-//    <input
-//             id={props.id}
-//             value={NewestPost}
-//             onChange={handleChange}
-//         />
+  //    function handleSubmit(event) {
+  //     event.preventDefault();
+  //     //props. (props.id, NewestPost)
+  //     SetNewestPost("");
+  //    }
 
-    return(
-        <div>
+  // const editpost
 
-        <button>
-             <FaEdit/>
-            </button>
-        <input
-            id={props.id}
+  //    <input
+  //             id={props.id}
+  //             value={NewestPost}
+  //             onChange={handleChange}
+  //         />
 
-        />
-            <button>
-                <FaTrash/>
-            </button>
-        </div>
-    );
+  return (
+    <div>
+      <button>
+        <FaEdit />
+      </button>
+      <input id={props.id} />
+      <button>
+        <FaTrash />
+      </button>
+    </div>
+  );
 }
-
-
-
 
 export default NewPost;

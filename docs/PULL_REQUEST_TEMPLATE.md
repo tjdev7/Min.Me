@@ -2,27 +2,25 @@
 
 -
 -
--
-
-----------------------------------------------------------------
+- 
 
 ## Type of PR:
 
-* New feature
-* Code cleaning
-* New documentation
-* Bug fix (Major, Medium, Minor)
+- New feature
+- Code cleaning
+- New documentation
+- Bug fix (Major, Medium, Minor)
 
-----------------------------------------------------------------
+---
 
 ### PR description:
 
 - [] Recent PR does not interfere with app functionality
 - [] Recent PR does not fail any tests
 
-----------------------------------------------------------------
+---
 
 <!---
-Example: 
+Example:
 Fix|Update for Min.Me/repository_name/PR-Number/name_of_fix
 --->
