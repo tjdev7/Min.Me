@@ -1,6 +1,4 @@
-
 # Contributing:
-
 
 Please follow the issue template guideline before commiting and new pull requests
 
@@ -19,4 +17,3 @@ Min.Me/Issue-type/name-of-issue-or-PR
 3. Run tests to ensure that nothing has broken with the new upcoming PR
 
 4. Push to the master branch and wait for a review
-

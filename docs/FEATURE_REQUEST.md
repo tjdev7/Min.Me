@@ -3,7 +3,7 @@
 Suggest an idea for this project
 
 **Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. *"When running this feature, the app behaves oddly [...]"*
+A clear and concise description of what the problem is. Ex. _"When running this feature, the app behaves oddly [...]"_
 
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.

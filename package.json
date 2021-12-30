@@ -1,13 +1,15 @@
 {
   "name": "min.me",
-  "version": "1.2.0",
-  "private": false,
+  "version": "1.2.1",
+  "private": true,
   "homepage": "https://toughee.github.io/Min.Me/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "core-js": "^3.15.2",
+    "cypress": "^9.2.0",
+    "node-sass": "^6.0.1",
     "prop-types": "^15.7.2",
     "random-username-generator": "^1.0.4",
     "react": "^17.0.2",
@@ -26,7 +28,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build",
-    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'"
+    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'&&npx prettier --write '**/*.md'",
+    "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",
+    "fullpr": "git add .&&git commit&&git push&&git merge",
+    "audits": "yarn install&&npm-update-all&&npm audit&&npm audit fix"
   },
   "eslintConfig": {
     "extends": [

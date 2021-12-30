@@ -22,10 +22,11 @@ function App() {
   return (
     <div className="App">
       <nav>
-      
         <BrowserRouter>
-        <Link to="/App">
-        <li><h1>Min.Me</h1></li>
+          <Link to="/App">
+            <li>
+              <h1>Min.Me</h1>
+            </li>
           </Link>
 
           <Link to="/Dashboard">
@@ -43,11 +44,8 @@ function App() {
           <Route path="/Dashboard" component={Dashboard} />
           <Route path="/followers" component={followers} />
           <Route path="/following" component={following} />
-          
         </BrowserRouter>
-        
       </nav>
-
     </div>
   );
 }
