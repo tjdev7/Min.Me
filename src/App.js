@@ -14,7 +14,6 @@ import {
   colors,
 } from "unique-names-generator";
 
-import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const shortName = uniqueNamesGenerator({
   dictionaries: [adjectives, colors],
