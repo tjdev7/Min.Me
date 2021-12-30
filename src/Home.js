@@ -40,10 +40,11 @@ function App() {
           </Link>
           <li>🧔{shortName}</li>
           {/*<Link to="/Settings"><li>Settings</li></Link>*/}
-
+        <Routes>
           <Route path="/Dashboard" component={Dashboard} />
           <Route path="/followers" component={followers} />
           <Route path="/following" component={following} />
+        </Routes>
         </BrowserRouter>
       </nav>
     </div>
