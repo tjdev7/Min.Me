@@ -1,3 +1,6 @@
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
+
+
 import "./App.css";
 // import ReactDOM from 'react-dom';
 // import PropTypes from 'prop-types';
@@ -41,9 +44,9 @@ function App() {
           <li>🧔{shortName}</li>
           {/*<Link to="/Settings"><li>Settings</li></Link>*/}
         <Routes>
-          <Route path="/Dashboard" component={Dashboard} />
-          <Route path="/followers" component={followers} />
-          <Route path="/following" component={following} />
+          <Route path="/Dashboard" element={Dashboard} />
+          <Route path="/followers" element={followers} />
+          <Route path="/following" element={following} />
         </Routes>
         </BrowserRouter>
       </nav>
