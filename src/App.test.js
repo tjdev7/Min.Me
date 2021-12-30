@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
-import Home from "./Home";
+import App from "./App";
 
 test("displays front page with no error messages ", () => {
-  render(<Home />);
+  render(<App />);
   expect(linkElement).toBeInTheDocument();
 });
